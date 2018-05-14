@@ -9,20 +9,6 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/.gitattributes": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.gitattributes",
-		"oF": 0
-		},
-	"\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/.gitignore",
-		"oF": 0
-		},
 	"\/jquery.fancy-form-elements.js": {
 		"ft": 64,
 		"ma": 0,
@@ -68,23 +54,6 @@
 		"oAP": "\/test\/index.html",
 		"oF": 0
 		},
-	"\/test\/styles.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/test\/styles.min.min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/test\/styles.min.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/test\/styles.min.css.map",
-		"oF": 0
-		},
 	"\/test\/styles.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -93,7 +62,7 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/test\/styles.min.css",
+		"oAP": "\/test\/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2016,11 +1985,11 @@
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.min.css",
+		"autoOutputPathFilenamePattern": "*.css",
 		"autoOutputPathRelativePath": "..\/css",
 		"autoOutputPathReplace1": "assets",
 		"autoOutputPathReplace2": "dist",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 3,
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
@@ -2089,12 +2058,12 @@
 	"languageDefaultsUserDefined": [
 		{
 			"autoOutputAction": 0,
-			"autoOutputPathFilenamePattern": "*.woff2",
+			"autoOutputPathFilenamePattern": "*.ttf",
 			"autoOutputPathRelativePath": "",
 			"autoOutputPathReplace1": "resources\/assets",
 			"autoOutputPathReplace2": "dist",
 			"autoOutputPathStyle": 3,
-			"fileExtension": "woff2",
+			"fileExtension": "ttf",
 			"shouldRunCacheBuster": 0
 			},
 		{
@@ -2109,6 +2078,16 @@
 			},
 		{
 			"autoOutputAction": 0,
+			"autoOutputPathFilenamePattern": "*.eot",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "resources\/assets",
+			"autoOutputPathReplace2": "dist",
+			"autoOutputPathStyle": 3,
+			"fileExtension": "eot",
+			"shouldRunCacheBuster": 0
+			},
+		{
+			"autoOutputAction": 0,
 			"autoOutputPathFilenamePattern": "*.woff",
 			"autoOutputPathRelativePath": "",
 			"autoOutputPathReplace1": "resources\/assets",
@@ -2119,22 +2098,12 @@
 			},
 		{
 			"autoOutputAction": 0,
-			"autoOutputPathFilenamePattern": "*.ttf",
+			"autoOutputPathFilenamePattern": "*.woff2",
 			"autoOutputPathRelativePath": "",
 			"autoOutputPathReplace1": "resources\/assets",
 			"autoOutputPathReplace2": "dist",
 			"autoOutputPathStyle": 3,
-			"fileExtension": "ttf",
-			"shouldRunCacheBuster": 0
-			},
-		{
-			"autoOutputAction": 0,
-			"autoOutputPathFilenamePattern": "*.eot",
-			"autoOutputPathRelativePath": "",
-			"autoOutputPathReplace1": "resources\/assets",
-			"autoOutputPathReplace2": "dist",
-			"autoOutputPathStyle": 3,
-			"fileExtension": "eot",
+			"fileExtension": "woff2",
 			"shouldRunCacheBuster": 0
 			},
 		{
@@ -2149,7 +2118,7 @@
 			}
 		],
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "\/test",
+	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
